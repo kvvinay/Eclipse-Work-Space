@@ -1,0 +1,24 @@
+package com.kvvinay.springsecurity.demo.controller;
+
+import org.springframework.context.annotation.*;
+import org.springframework.web.servlet.ViewResolver;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.view.InternalResourceViewResolver;
+
+@Configuration
+@EnableWebMvc
+@ComponentScan(basePackages="com.kvvinay.springsecurity.demo")
+public class DemoAppConfig {
+	//No XML Application
+	@Bean
+	public ViewResolver viewResolver() {
+		
+		InternalResourceViewResolver vr = new InternalResourceViewResolver();
+		
+		vr.setPrefix("/WEB-INF/view");
+		vr.setSuffix(".jsp");
+	
+		return vr;
+	}
+
+}

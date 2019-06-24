@@ -1,0 +1,11 @@
+package com.kvvinay.springsecurity.demo.config;
+
+import org.springframework.stereotype.Component;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+
+@Component
+@EnableWebMvc
+@Componentscan(basePackage="com.kvvinay.springsecurity.demo")
+public class DemoAppConfig {
+
+}

@@ -1,0 +1,4 @@
+127.0.0.1 - - [23/Jun/2019:13:32:47 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [23/Jun/2019:13:32:50 +0530] "GET /web-customer-tracker/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [23/Jun/2019:13:32:51 +0530] "GET /web-customer-tracker/customer/list HTTP/1.1" 200 2145
+0:0:0:0:0:0:0:1 - - [23/Jun/2019:13:32:52 +0530] "GET /web-customer-tracker/resources/css/style.css HTTP/1.1" 200 1049

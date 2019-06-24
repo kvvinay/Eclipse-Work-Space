@@ -1,0 +1,14 @@
+package com.kvvinay.springsecurity.demo.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class DemoController {
+	
+	@GetMapping("/")
+	public void showHome() {
+		
+		return "home";
+	}
+
+}

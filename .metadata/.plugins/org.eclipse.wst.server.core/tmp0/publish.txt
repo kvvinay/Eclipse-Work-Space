@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sun Jun 23 13:32:36 IST 2019
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\vinay\\eclipse-workspace\ old\\web-customer-tracker\\WebContent\\WEB-INF\\lib\\spring-web-5.1.7.RELEASE.jar=WEB-INF/lib/spring-web-5.1.7.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\vinay\\eclipse-workspace\ old\\web-customer-tracker\\WebContent\\WEB-INF\\lib\\spring-web-5.1.7.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.1.7.RELEASE-sources.jar
